@@ -6,5 +6,5 @@ xgboost
 catboost
 scikit-learn
 dill
-
+openpyxl
 -e .
