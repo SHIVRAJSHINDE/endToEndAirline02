@@ -11,7 +11,7 @@ from src.components.st02trainingFunctions import ModelTrainer
 
 class TrainingPipeline:
     def __init__(self):
-        self.filePath = "D:\\MLProjects\\ZDatasets\\AirlineData\\r\\Combined.xlsx"
+        self.filePath = "D:\\MLProjects\\basicProjects\\endToEndAirline02\\artifacts\\RawDataSet\\Combined.xlsx"
         self.streamline_data = streamlineData()
         self.ModelTrainer = ModelTrainer()
 
